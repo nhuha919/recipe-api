@@ -127,7 +127,7 @@ This project includes unit, integration, and API tests to ensure everything work
 - **Supertest** – For sending API requests
 - **mongodb-memory-server** – In-memory MongoDB for safe and fast testing
 
-### 🧪 Test Types
+### Test Types
 | Type           | What It Tests                             |
 |----------------|--------------------------------------------|
 | Unit Tests     | Mongoose model logic and schema validation |
