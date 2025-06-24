@@ -8,4 +8,5 @@ logs/
 # Environment variables
 .env
 
+coverage/
 
