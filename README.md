@@ -4,7 +4,7 @@ A basic REST API to store, retrieve, and delete cooking recipes — built with *
 
 ---
 
-## 📦 What This API Can Do
+## What This API Can Do
 
 ### Available Endpoints:
 
@@ -89,7 +89,7 @@ MongoDB connected
 
 ---
 
-## 🌐 How to Interact with the API
+## How to Interact with the API
 
 ### ▶️ Add a Recipe
 
@@ -118,3 +118,23 @@ curl -X DELETE http://localhost:3000/recipes/<recipe_id>
 ```
 
 ---
+## Testing
+
+This project includes unit, integration, and API tests to ensure everything works reliably.
+
+### Tools Used
+- **Jest** – Testing framework
+- **Supertest** – For sending API requests
+- **mongodb-memory-server** – In-memory MongoDB for safe and fast testing
+
+### 🧪 Test Types
+| Type           | What It Tests                             |
+|----------------|--------------------------------------------|
+| Unit Tests     | Mongoose model logic and schema validation |
+| Integration    | Recipe model saving and querying with DB   |
+| API Tests      | Express endpoints (GET, POST, DELETE)      |
+
+### ▶️ How to Run All Tests
+
+```bash
+NODE_ENV=test npm test
